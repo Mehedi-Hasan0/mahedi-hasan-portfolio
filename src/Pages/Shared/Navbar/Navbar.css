@@ -1,0 +1,22 @@
+.nav-link {
+  padding: 20px 0px;
+  display: inline-block;
+  position: relative;
+}
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ff715b;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+  opacity: 1;
+}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import bgImg from '../../../assets/banner-bg.png';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import menu from '../../../assets/icon/menu.svg';
@@ -8,13 +7,7 @@ import close from '../../../assets/icon/close.svg';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     return (
-        <nav
-            style={{
-                background: `url(${bgImg})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
-            }}
-        >
+        <nav className='bg-[#121e27] border-b'>
             <div className='max-w-6xl md:mx-16 xl:mx-auto md:flex hidden justify-between items-center'>
                 <Link to='/' className='text-white font-semibold text-2xl'>Mahedi Hasan</Link>
                 <div className=' text-white nav-links'>
@@ -29,7 +22,7 @@ const Navbar = () => {
                 <Link className='text-xl font-semibold text-white' to='/'>Mahedi Hasan</Link>
                 <img src={toggle ? close : menu} alt='menu' className='w-6 object-contain cursor-pointer opacity-70' onClick={() => setToggle((previous) => !previous)} />
 
-                <div className={`${toggle ? 'flex' : 'hidden'} p-6 absolute bg-[#121e27] top-0 right-0 w-full flex-col items-end opacity-100`}>
+                <div className={`${toggle ? 'flex' : 'hidden'} p-6 absolute bg-[#121e27] top-0 right-0 w-full flex-col items-end opacity-100 z-50`}>
                     <img src={toggle ? close : menu} alt='menu' className='w-6 object-contain mb-7 cursor-pointer' onClick={() => setToggle((previous) => !previous)} />
                     <div className='flex flex-col md:text-lg text-base z-50 w-full relative text-center justify-between'>
 

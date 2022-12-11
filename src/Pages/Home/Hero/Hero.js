@@ -1,17 +1,37 @@
 import React from 'react';
-import bgImg from '../../../assets/banner-bg.png';
+import Typewriter from 'typewriter-effect';
+import heroImg from '../../../assets/images/Code typing-pana.svg';
+import github from '../../../assets/icon/icons8-github.svg';
+import linkedIn from '../../../assets/icon/icons8-linkedin.svg';
+import email from '../../../assets/icon/icons8-envelope-60.png';
 
 const Hero = () => {
     return (
-        <section
-            style={{
-                background: `url(${bgImg})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
-            }}
-        >
-            <div className=' max-w-6xl mx-auto lg:pb-40  py-20 px-5 sm:px-9 md:px-12 lg:px-16 xl:px-0'>
-
+        <section className='bg-[#121e27]'>
+            <div className=' max-w-6xl mx-auto  py-20 px-5 sm:px-9 md:px-12 lg:px-16 xl:px-0'>
+                <div className='flex lg:flex-row flex-col justify-between'>
+                    <div className='lg:w-[60%] mb-8 lg:mb-0'>
+                        <h2 className='text-white font-medium md:text-5xl sm:text-4xl text-3xl leading-snug'>Hi, I'm Mahedi Hasan <span className='md:text-3xl sm:text-2xl text-xl z-10'>
+                            <Typewriter
+                                options={{
+                                    strings: ['Frontend Developer', 'MERN Stack Developer'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </span>
+                        </h2>
+                        <div className='my-5'>
+                            <a href="https://github.com/Mehedi-Hasan0" target='_blank'><img src={github} alt="" className='w-10 inline' /></a>
+                            <a href="https://www.linkedin.com/in/mhmahedihasan" target='_blank'><img src={linkedIn} alt="" className='w-10 inline mx-4' /></a>
+                            <a href="mailto:dev.mahedihasan@gmail.com"><img src={email} alt="" className='w-10 inline' /></a>
+                        </div>
+                        <p className='text-white font-light md:w-[60%] md:text-lg text-base opacity-90'>I love exploring and creating 🚀 I'm a lifelong learner 🎓 Walking towards my dream of becoming a software engineer 👨‍💻</p>
+                    </div>
+                    <div className='lg:w-[40%] sm:w-[80%] w-full  mx-auto'>
+                        <img src={heroImg} alt="" className='opacity-90' />
+                    </div>
+                </div>
             </div>
         </section>
     );

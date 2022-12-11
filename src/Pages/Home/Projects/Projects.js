@@ -32,9 +32,9 @@ const Projects = () => {
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Authentication'>Firebase</p>
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Tools'>Vercel</p>
                             </div>
-                            <div className='border-2 border-black inline-block md:mb-16 mb-7'>
+                            <div className='border-2 border-black inline-block md:mb-16 mb-7 ml-2 md:ml-0'>
                                 <Link>
-                                    <div className='bg-[#ff715b] py-5 px-8 relative right-2 bottom-2 hover:right-0 hover:bottom-0 transition-all'>
+                                    <div className='bg-[#ff715b] md:py-5 py-2 md:px-8 px-4 relative md:right-2 right-1 md:bottom-2 bottom-1 hover:right-0 hover:bottom-0 transition-all'>
                                         <p className='text-white text-xl font-semibold'>View Project</p>
                                     </div>
                                 </Link>
@@ -62,9 +62,9 @@ const Projects = () => {
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Authentication'>Firebase</p>
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Tools'>Vercel</p>
                             </div>
-                            <div className='border-2 border-black inline-block md:mb-16 mb-7'>
+                            <div className='border-2 border-black inline-block md:mb-16 mb-7 ml-2 md:ml-0'>
                                 <Link>
-                                    <div className='bg-[#ff715b] py-5 px-8 relative right-2 bottom-2 hover:right-0 hover:bottom-0 transition-all'>
+                                    <div className='bg-[#ff715b] md:py-5 py-2 md:px-8 px-4 relative md:right-2 right-1 md:bottom-2 bottom-1 hover:right-0 hover:bottom-0 transition-all'>
                                         <p className='text-white text-xl font-semibold'>View Project</p>
                                     </div>
                                 </Link>
@@ -88,9 +88,9 @@ const Projects = () => {
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Frontend'>React router</p>
                                 <p className='p-2 bg-[#121E27] text-white inline-block tooltip' data-tip='Authentication'>Firebase</p>
                             </div>
-                            <div className='border-2 border-black inline-block md:mb-16 mb-7'>
+                            <div className='border-2 border-black inline-block md:mb-16 mb-7 ml-2 md:ml-0'>
                                 <Link>
-                                    <div className='bg-[#ff715b] py-5 px-8 relative right-2 bottom-2 hover:right-0 hover:bottom-0 transition-all'>
+                                    <div className='bg-[#ff715b] md:py-5 py-2 md:px-8 px-4 relative md:right-2 right-1 md:bottom-2 bottom-1 hover:right-0 hover:bottom-0 transition-all'>
                                         <p className='text-white text-xl font-semibold'>View Project</p>
                                     </div>
                                 </Link>

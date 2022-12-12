@@ -7,7 +7,7 @@ import pro3 from '../../../assets/images/proj3.png';
 
 const Projects = () => {
     return (
-        <section className='bg-white'>
+        <section className='bg-white' id="projects" name='projects'>
             <div className='max-w-6xl mx-auto pb-24 px-5 sm:px-9 md:px-12 lg:px-16 xl:px-10'>
                 <div>
                     <div className='mb-6'>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01",
+    "name": "Alex",
+    "intro": "Alex is a photography service based website where clients can find different types of photography services. The goal was to create a full stack CRUD operation website.",
+    "type": "Photography services",
+    "features": [],
+    "stack": [
+      {
+        "name": "React"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "React Query"
+      },
+      {
+        "name": "Firebase"
+      },
+      {
+        "name": "Vercel"
+      }
+    ],
+    "webstack_explanation": "Build the projects using React.js because it's server side rendering and dynamic routing. For backend I used Express.js as it is easy to make api to build applications. I also used MongoDB for database because of it's high performance speed. MongoDB makes queries much faster, and returns all the necessary information in a single call to the database.",
+    "problems": "The main goal of the projects was to create a CRUD operation. As I learn about CRUD operation I tried to implemented it. Creating a backend api call for website was a challenging. I struggle a lot because of my first time working with Express.js. But whenever I was stuck I google it and after some time found the solution and executed it. "
+  }
+]

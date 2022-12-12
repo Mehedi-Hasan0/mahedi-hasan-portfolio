@@ -6,6 +6,17 @@ import close from '../../../assets/icon/close.svg';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
+
+    const toProjects = () => {
+        const section = document.querySelector('#projects');
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    const toContact = () => {
+        const section = document.querySelector('#contact');
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     return (
         <nav className='bg-[#121e27] border-b'>
             <div className='max-w-6xl md:mx-16 xl:mx-auto md:flex hidden justify-between items-center'>
@@ -13,8 +24,8 @@ const Navbar = () => {
                 <div className=' text-white nav-links'>
                     <Link to='/' className='nav-link nav-link-ltr'>Home</Link>
                     <Link to='/about' className='mx-5 nav-link nav-link-ltr'>About</Link>
-                    <Link to='/projects' className='mr-5 nav-link nav-link-ltr'>Projects</Link>
-                    <Link to='/contact' className='nav-link nav-link-ltr'>Contact</Link>
+                    <Link onClick={toProjects} className='mr-5 nav-link nav-link-ltr'>Projects</Link>
+                    <Link onClick={toContact} className='nav-link nav-link-ltr'>Contact</Link>
                 </div>
             </div>
 
@@ -28,8 +39,8 @@ const Navbar = () => {
 
                         <Link to='/' className='text-white'>Home</Link>
                         <Link to='/about' className='my-5 text-white'>About</Link>
-                        <Link to='/projects' className='mb-5 text-white'>Projects</Link>
-                        <Link to='/contact' className='text-white'>Contact</Link>
+                        <Link onClick={toProjects} className='mb-5 text-white'>Projects</Link>
+                        <Link onClick={toContact} className='text-white'>Contact</Link>
                     </div>
                 </div>
             </div>

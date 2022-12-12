@@ -4,7 +4,7 @@ import gif from '../../../assets/images/24695-man-takes-nice-a-coffee.gif';
 
 const Contact = () => {
     return (
-        <section className='bg-white'>
+        <section className='bg-white' id='contact'>
             <div className='max-w-6xl mx-auto pb-24 px-5 sm:px-9 md:px-12 lg:px-16 xl:px-10'>
                 <div className='mb-6'>
                     <h2 className='text-[#2f2f2f] md:text-5xl text-3xl text-center'>Let's have a chat</h2>

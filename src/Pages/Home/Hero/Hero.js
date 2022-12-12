@@ -11,7 +11,7 @@ const Hero = () => {
             <div className=' max-w-6xl mx-auto md:py-32 py-16 px-5 sm:px-9 md:px-12 lg:px-16 xl:px-0'>
                 <div className='flex lg:flex-row flex-col justify-between items-center'>
                     <div className='lg:w-[60%] mb-8 lg:mb-0'>
-                        <h2 className='text-white font-medium md:text-5xl sm:text-4xl text-3xl leading-snug'>Hi, I'm Mahedi Hasan <span className='md:text-3xl sm:text-2xl text-xl z-10'>
+                        <h2 className='text-white font-medium md:text-5xl sm:text-4xl text-3xl leading-snug'>Hi, I'm Mahedi Hasan <span className='md:text-3xl sm:text-2xl text-xl z-10 text-[#ff715b]'>
                             <Typewriter
                                 options={{
                                     strings: ['Frontend Developer', 'MERN Stack Developer'],
